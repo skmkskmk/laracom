@@ -1,0 +1,1200 @@
+::-webkit-scrollbar {
+width:7px;
+height:7px;
+
+}
+::-webkit-scrollbar-track {
+background:#efefef;
+
+}
+::-webkit-scrollbar-thumb {
+background:#403e3e;
+border-radius:0
+}
+::-webkit-scrollbar-thumb:hover {
+background:#fd6308;
+cursor:pointer;
+}
+::-webkit-scrollbar-thumb:active {
+background:#fd6308;
+}
+
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxFIzIFKw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxMIzIFKw.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxEIzIFKw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxLIzIFKw.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxHIzIFKw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxGIzIFKw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxIIzI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfCRc4EsA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfABc4EsA.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfCBc4EsA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBxc4EsA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfCxc4EsA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfChc4EsA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBBc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+body
+{font-family: 'Roboto', sans-serif !important;}
+
+.imp-top
+{
+width:100% !important;
+float:left;
+padding:6px 0px;
+margin:0px;
+background:#f8f8f8;
+color:#444;
+}
+
+
+.left-imp
+{
+text-align:left;
+}
+.left-imp a
+{
+color:#444;
+font-size:16px;
+padding-right:10px;
+}
+
+.left-imp a:hover
+{
+color:#000;
+text-decoration:blink;
+}
+
+.right-imp
+{
+text-align:right;
+}
+.right-imp a
+{
+color:#444;
+font-size:16px;
+padding-left:10px;
+}
+
+.right-imp a:hover
+{
+color:#000;
+text-decoration:blink;
+}
+
+.imp-menu
+{
+width:100% !important;
+float:left;
+padding:6px 0px;
+margin:0px;
+background:#000;
+color:#fff;
+}
+
+.imp-braking
+{
+width:100% !important;
+float:left;
+padding:6px 0px;
+margin:0px;
+background:#f8f8f8;
+color:#444;
+border-bottom:solid 1px #f3f3f3;
+}
+
+
+.moree
+{display: inline-block;background:#930;color: #ffffff;font-weight: 500;font-size:17px;margin-left: 0;padding: 10px 10px !important;position: relative;margin-right:15px;}
+
+.moree:before
+
+{position: absolute;
+content: "";
+top: 0;
+right: -8px;
+border-top: 8px solid #930;
+border-right: 8px solid transparent;
+}
+
+
+.input-box
+{height: 46px !important;
+    border-radius: 3px;
+    border: solid 1px #ddd !important;}
+
+.submit-buton
+{    background: #e53935 !important;
+    color: #fff !important;
+    float: left !important;
+    width: 100% !important;
+    border: none !important;
+    font-size: 16px !important;
+    text-transform: uppercase;
+    padding: 11px 25px !important;}
+
+.contactus
+{    padding: 5px 10px !important;
+    border-radius: 3px !important;
+    background: #f82a2a !important;
+    color: #fff !important;
+    font-size: 14px !important;
+    margin-left: 10px !important;}
+
+.braking
+{display: inline-block;background: #f82a2a;color: #ffffff;font-weight: 500;font-size:17px;margin-left: 0;padding: 10px 10px !important;position: relative;margin-right:15px;width: 150px;text-align: center;}
+
+.braking:before
+
+{position: absolute;
+content: "";
+top: 0;
+right: -8px;
+border-top: 8px solid #f82a2a;
+border-right: 8px solid transparent;
+}
+
+.recent
+{display: inline-block;background:#ffab00;color: #ffffff;font-weight: 500;font-size:17px;margin-left: 0;padding: 10px 10px !important;position: relative;margin-right:15px;width: 150px;}
+
+.recent:before
+
+{position: absolute;
+content: "";
+top: 0;
+right: -8px;
+border-top: 8px solid #ffab00;
+border-right: 8px solid transparent;
+}
+
+
+.blogs
+{display: inline-block;background:#546e7a;color: #ffffff;font-weight: 500;font-size:17px;margin-left: 0;padding: 10px 10px !important;position: relative;margin-right:15px;width: 150px;text-align: center;}
+
+.blogs:before
+
+{position: absolute;
+content: "";
+top: 0;
+right: -8px;
+border-top: 8px solid #546e7a;
+border-right: 8px solid transparent;
+}
+
+
+
+.list-wrpaaer
+{
+height:30px;
+}
+
+.list-wrpaaer ul
+{padding-left: 0px;}
+
+.list-wrpaaer ul li
+{display:block;padding: 10px 0px;font-size: 16px;}
+
+.list-wrpaaer a
+{
+color:#444;
+}
+
+
+.imp-top-category
+{
+width:100% !important;
+float:left;
+padding:50px 0px;
+margin:0px;
+background:#fff;
+color:#444;
+}
+
+
+.readmore
+{border-radius: 3px !important;
+    font-size: 15px !important;
+    background-color: #ff4b52 !important;
+    border-color: #ff4b52 !important;
+    padding: 7px 25px !important;
+    color: #fff !important;}
+.imp-top-category h3
+{
+margin:0px;
+color:#ff4b52;
+font-size:20px;
+}
+
+.imp-top-category p
+{
+margin:0px 0px 10px 0px;
+font-size:15px;}
+
+.imp-top-category  .fa
+{ color:#ff4b52 !important;
+}
+
+
+.imp-top-banner
+{
+width:100% !important;
+float:left;
+padding:50px 0px;
+margin:0px;
+background:#fff;
+color:#444;
+}
+
+.imp-top-banner h3
+{
+margin:0px;
+color:#fff;
+font-size:18px;
+}
+
+
+.imp-top-category h4
+{
+margin:0px;
+color:#202020;
+font-size:15px;
+line-height:22px !important;
+}
+
+
+.imp-top-banner p
+{
+margin:0px;
+font-size:12px;}
+
+
+.imp-top-banner .thumbnail
+{border:none !important;padding:0px !important;position: relative;height: 203px;margin-bottom: 15px;}
+
+.imp-top-banner .thumbnail .caption
+{color: #fff;padding: 10px !important;z-index: 999;position: absolute;bottom: 0;left: 0;width: 100%;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c6b8b9+0,000000+100 */background: #ffffffe3; /* Old browsers */background: -moz-linear-gradient(top, #c6b8b9 0%, #000000 100%); /* FF3.6-15 */background: -webkit-linear-gradient(top, #c6b8b900 0%,#00000052 100%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(to bottom, #c6b8b900 0%,#000000a8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6b8b9', endColorstr='#000000',GradientType=0 ); /* IE6-9 */}
+
+
+
+
+.thumbnaill
+{border:none !important;padding:0px !important;position: relative;height: 202px;margin-bottom:0px;}
+
+.thumbnaill .caption
+{color: #fff;padding: 10px !important;z-index: 999;position: absolute;bottom: 0;left: 0;width: 100%;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c6b8b9+0,000000+100 */background: #ffffffe3; /* Old browsers */background: -moz-linear-gradient(top, #c6b8b9 0%, #000000 100%); /* FF3.6-15 */background: -webkit-linear-gradient(top, #c6b8b900 0%,#000000fa 100%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(to bottom, #c6b8b900 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6b8b9', endColorstr='#000000',GradientType=0 ); /* IE6-9 */}
+
+
+.thumbnaill h3
+{
+margin:0px;
+color:#fff;
+font-size:20px;
+line-height:25px;
+white-space: nowrap;
+width: 100%;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+.thumbnaill p
+{
+margin:0px;
+font-size:12px;
+}
+
+
+
+.thumbnailll
+{border:none !important;padding:0px !important;position: relative;height:485px;margin-bottom:0px;}
+
+.thumbnailll .caption
+{color: #fff;padding: 10px !important;z-index: 999;position: absolute;bottom: 0;left: 0;width: 100%;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c6b8b9+0,000000+100 */background: #ffffffe3; /* Old browsers */background: -moz-linear-gradient(top, #c6b8b9 0%, #000000 100%); /* FF3.6-15 */background: -webkit-linear-gradient(top, #c6b8b900 0%,#000000fa 100%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(to bottom, #c6b8b900 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6b8b9', endColorstr='#000000',GradientType=0 ); /* IE6-9 */}
+
+
+.thumbnailll h3
+{
+margin:0px;
+color:#fff;
+font-size:20px;
+line-height:25px;
+white-space: nowrap;
+width: 100%;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+.thumbnailll p
+{
+margin:0px;
+font-size:12px;
+}
+
+
+
+
+
+
+.thumb
+{border:none !important;padding:0px !important;position: relative;height:295px;margin-bottom:20px;}
+
+.thumb .caption
+{color: #fff;padding: 10px !important;z-index: 999;position: absolute;bottom: 0;left: 0;width: 100%;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c6b8b9+0,000000+100 */background: #ffffffe3; /* Old browsers */background: -moz-linear-gradient(top, #c6b8b9 0%, #000000 100%); /* FF3.6-15 */background: -webkit-linear-gradient(top, #c6b8b900 0%,#000000fa 100%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(to bottom, #c6b8b900 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6b8b9', endColorstr='#000000',GradientType=0 ); /* IE6-9 */}
+
+
+.thumb h3
+{
+margin:0px;
+color:#fff;
+font-size:20px;
+line-height:25px;
+white-space: nowrap;
+width: 100%;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+.thumb p
+{
+margin:0px;
+font-size:12px;
+}
+
+
+
+
+
+
+
+
+
+
+.box{
+
+border-radius: 0px 0;
+position: relative;
+overflow: hidden;
+}
+.box:before,
+.box:after,
+.box .box-content:before,
+.box .box-content:after{
+content: "";
+background: #fff;
+width: 50%;
+height: 2px;
+transform: scaleX(0);
+position: absolute;
+top: 15px;
+left: 15px;
+z-index: 1;
+transition: all 600ms ease;
+}
+.box:after{
+top: auto;
+bottom: 15px;
+left: auto;
+right: 15px;
+}
+.box .box-content:before,
+.box .box-content:after{
+width: 4px;
+height: 50%;
+transform: scaleY(0);
+}
+.box .box-content:after{
+left: auto;
+right: 15px;
+top: auto;
+bottom: 15px;
+}
+.box:hover:before,
+.box:hover:after,
+.box:hover .box-content:before,
+.box:hover .box-content:after{
+transform: scale(1);
+}
+.box img{
+width: 100%;
+height: auto;
+transform: scale3d(1.1, 1.1, 1);
+transition: all 0.25s linear;
+}
+.box:hover img{
+
+transform: scale(1.25);
+}
+
+
+
+
+
+.imp-expolr {
+width: 100% !important;
+float: left;
+padding:45px 0px;
+margin: 0px;
+background: #f8f8f8;
+color: #444;
+}
+
+
+.tag {font-weight:900;font-size: 35px;color:#f82a2a;margin-bottom:10px;}
+
+.tags {
+font-weight:normal;
+font-size:14px;
+color:#000;
+text-transform:uppercase;
+
+}
+
+
+.margen-bottom
+{
+margin-bottom:35px;
+}
+
+
+.post-slide{
+background: #fff;
+padding-bottom: 20px;
+margin: 0 15px;
+border: solid 1px #f5f5f5;
+}
+.post-slide .post-img{
+position:relative;
+}
+
+.post-slide .over-layer{
+background: rgba(0, 0, 0, 0.6);
+width: 100%;
+height: 100%;
+position: absolute;
+opacity:0;
+cursor: pointer;
+transition: all 0.30s ease 0s;
+}
+.post-slide:hover .over-layer{
+opacity:1;
+}
+.post-slide .over-layer:after{
+content: "+";
+font-size: 52px;
+color: #fff;
+position: absolute;
+top: 31%;
+left:42%;
+}
+.post-slide .post-img img{
+width: 100%;
+height: auto;
+}
+
+
+
+
+
+.post-slide .post-title{
+margin: 12px 0 5px 0;
+padding: 13px;
+}
+.post-slide .post-title:before{
+content:"";
+border: 2px solid #f82a2a;
+width:18%;
+display: block;
+margin-bottom: 5px;
+}
+.post-slide .post-title a{
+font-size: 18px;
+font-weight:bold;
+line-height: 25px;
+color:#333;
+display: inline-block;
+text-transform:capitalize;
+transition: all 0.3s ease 0s;
+}
+.post-slide .post-title a:hover{text-decoration: none;color: #ff4b52;}
+.post-slide .post-date{
+text-transform:capitalize;
+padding: 10px;
+}
+.post-slide .post-date .fa{
+
+color:#f82a2a;
+font-size:12px !important;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
+background: #f82a2a;
+}
+
+
+
+
+.imp-top-stories {
+    width: 100% !important;
+    float: left;
+    padding: 45px 0px;
+    margin: 0px;
+    background: #fff;
+    color: #444;
+}
+
+
+
+.news-top
+{
+	margin-bottom: 11px;
+	}
+
+.news-top h3
+{
+    font-weight: bold;
+    font-size: 16px;
+    margin:0px;
+    line-height: 24px;
+    }
+
+.news-top p
+{
+	font-size:12px;
+	margin-bottom:10px;}
+	
+.news-top .fa
+{color: #f82a2a;
+    font-size: 12px !important;
+	padding-right:10px;}	
+	
+	
+	
+.facebook
+{background:#6081c4 !important; text-align:center !important; color:#fff; font-weight:bold !important; border:none !important; margin:0px !important; padding:15px !important; font-size:25px !important;}	
+	
+
+
+.twitter
+{background:#43bdf0 !important; text-align:center !important; color:#fff; font-weight:bold !important; border:none !important; margin:0px !important; padding:15px !important; font-size:25px !important;}	
+
+
+
+
+.linkedin
+{background:#2697cf !important; text-align:center !important; color:#fff; font-weight:bold !important; border:none !important; margin:0px !important; padding:15px !important; font-size:25px !important;}	
+
+
+.instagram
+{background:#df516b !important; color:#fff; text-align:center !important; font-weight:bold !important; border:none !important; margin:0px !important; padding:15px !important; font-size:25px !important;}	
+
+
+
+.sports
+{
+	width:100%;
+	float:left;
+	padding:45px 0px;
+	margin:0px;
+	background:#f8f8f8;
+	color:#444;}
+
+.row-bor
+{float: left;
+    padding: 14px 0px 0px 0px !important; border-radius:0px!important;}
+
+
+.subscr
+{
+	font-size:25px !important;
+	color:#fff;
+	margin:0px;}
+	
+	.birds
+	{background: none !important;
+    border: none !important;
+    color: #fff !important;
+    font-size: 21px;
+    padding: 9px 22px;}
+	
+.backeresd
+{background: #000 !important;
+    border: none !important;}
+	
+	
+	
+	
+	
+.footer-top-area
+{
+background:#000;
+width:100%;
+float:left;
+padding:45px 0px;
+color:#fff;}	
+
+.footer-top-area a
+{}
+
+.footer-top-area a:hover
+{
+	text-decoration:blink;
+	color:#fff;}
+
+
+.footer-top-area h3
+{
+color: #ffffff;
+font-size:18px;
+font-weight: 500;
+margin:0px;
+text-transform:uppercase;
+}
+
+.footer-link
+{
+	width:50%;
+	float:left;
+	color: #c4c4c4;
+	font-size: 15px;
+	margin-bottom: 10px;
+	}
+	
+.footer-link:hover
+{
+	text-decoration:blink;
+color:#fff;}	
+
+
+.fac
+{background: #ff4b52;
+float: left;
+color: #fff;
+width: 35px;
+height: 35px;
+text-align: center;
+font-size: 16px;
+line-height: 34px;
+border-radius: 100%;
+margin-right: 10px;}
+
+
+.fac:hover
+{background: #fff;
+float: left;
+color: #ff4b52;
+text-decoration:blink;
+}
+	
+	
+.tag-lineee {
+background: #ff4a53;
+width: 70px;
+border:none !important;
+font-weight: 700;
+height: 2px;
+margin: 0px 0px 10px 0px;
+}
+
+
+.footer-top-area p
+{color: #c4c4c4;font-size: 15px;margin-bottom:10px;}
+
+.footer-top-area span
+{
+	font-size:12px;
+	color:#666;
+}
+.footer-top-area h2
+{
+color: #c4c4c4;
+font-size:16px;
+margin-bottom:10px;
+font-weight:bold;
+}
+
+
+.category:hover
+{
+	color:#fff;
+	background:#ff4b52;
+	border:solid 1px #ff4b52;
+	text-decoration:blink;}
+
+.category
+{float: left;
+    padding: 2px 8px;
+    color: #000;
+    background: #fff;
+    margin-right: 7px;
+    border-radius: 2px;
+	border:solid 1px #000;
+    font-size: 15px;
+	margin-bottom:10px;}
+
+
+
+.tag-link:hover
+{
+	color:#fff;
+	background:#ff4b52;
+	text-decoration:blink;}
+
+.tag-link
+{float: left;
+    padding: 2px 8px;
+    color: #000;
+    background: #fff;
+    margin-right: 7px;
+    border-radius: 2px;
+    font-size: 15px;
+	margin-bottom:10px;}
+
+
+.copyright-line
+{
+	width:100%;
+	float:left;
+	text-align:center;
+	background:#666;
+	color:#999;
+	padding:10px 0px;}
+.owl-carousel .owl-wrapper:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}.owl-carousel{display:none;position:relative;width:100%;-ms-touch-action:pan-y}.owl-carousel .owl-wrapper{display:none;position:relative;-webkit-transform:translate3d(0,0,0)}.owl-carousel .owl-wrapper-outer{overflow:hidden;position:relative;width:100%}.owl-carousel .owl-wrapper-outer.autoHeight{-webkit-transition:height 500ms ease-in-out;-moz-transition:height 500ms ease-in-out;-ms-transition:height 500ms ease-in-out;-o-transition:height 500ms ease-in-out;transition:height 500ms ease-in-out}.owl-carousel .owl-item{float:left}.owl-controls .owl-page,.owl-controls .owl-buttons div{cursor:pointer}.owl-controls{-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.grabbing{cursor:url(grabbing.png) 8 8,move}.owl-carousel .owl-wrapper,.owl-carousel .owl-item{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0)}
+
+.owl-theme .owl-controls{margin-top:10px;text-align:center}.owl-theme .owl-controls .owl-buttons div{color:#FFF;display:inline-block;zoom:1;*display:inline;margin:5px;padding:3px 10px;font-size:12px;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px;background:#869791;filter:Alpha(Opacity=50);opacity:.5}.owl-theme .owl-controls.clickable .owl-buttons div:hover{filter:Alpha(Opacity=100);opacity:1;text-decoration:none}.owl-theme .owl-controls .owl-page{display:inline-block;zoom:1;*display:inline}.owl-theme .owl-controls .owl-page span{display:block;width:12px;height:12px;margin:5px 7px;filter:Alpha(Opacity=50);opacity:.5;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;background:#869791}.owl-theme .owl-controls .owl-page.active span,.owl-theme .owl-controls.clickable .owl-page:hover span{filter:Alpha(Opacity=100);opacity:1}.owl-theme .owl-controls .owl-page span.owl-numbers{height:auto;width:auto;color:#FFF;padding:2px 10px;font-size:12px;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px}.owl-item.loading{min-height:150px;background:url(AjaxLoader.gif) no-repeat center center}
+	
+@media only screen and (min-width:320px) and (max-width:680px) {
+	
+.braking {
+
+    font-size:12px !important;
+
+    padding: 10px 5px !important;
+    width: 100px !important;
+}	
+
+
+
+.recent {
+font-size:12px !important;
+
+    padding: 10px 5px !important;
+    width: 100px !important;
+}
+.list-wrpaaer a {
+color: #000 !important;
+font-size: 13px !important;
+}
+
+.blogs
+
+{font-size:12px !important;
+
+    padding: 10px 5px !important;
+    width: 100px !important;}
+	
+	
+.input-group
+{
+margin-top:10px !important;
+}
+
+.tag {
+
+    font-size: 22px;
+ 
+}	
+	
+	
+.left-imp {
+    text-align: center;
+}
+
+.right-imp {
+    text-align: center;
+}
+
+.left-imp a {
+ 
+    font-size:14px;
+   
+}
+
+.right-imp a {
+ 
+    font-size:14px;
+   
+}
+
+}
+
+
+.insearch{
+  height: '50px !important';
+  border: 'none !important'
+}
+
+.btnsearchred{
+  background : '#f82a2a !important'
+}
